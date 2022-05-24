@@ -356,7 +356,7 @@ Distance: {distance_from}m
         print("Null")
         
 
-bot = telepot.Bot('5158422581:AAFsL5Iki3vb_RBRl_2KkIpY2wcSHNMNgf8')
+bot = telepot.Bot('XXXXX')
 MessageLoop(bot,handle).run_as_thread()
   
 while 1:
