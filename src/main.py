@@ -355,9 +355,9 @@ Distance: {distance_from}m
         bot.sendMessage(chat_id,"I dont understand")
         print("Null")
         
-
-bot = telepot.Bot('XXXXX')
-MessageLoop(bot,handle).run_as_thread()
+if __name__ == "__main__":
+    bot = telepot.Bot('XXXXX')
+    MessageLoop(bot,handle).run_as_thread()
   
-while 1:
-  time.sleep(1)
+    while 1:
+        time.sleep(1)
